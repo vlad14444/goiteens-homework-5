@@ -13,7 +13,14 @@ font-size: 26px;
 line-height: 31px;
 /* identical to box height */
 letter-spacing: 0.03em;
-
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100;
+    height: auto;
 }
 .logo-span,
 .nav-link:hover,
@@ -21,8 +28,21 @@ letter-spacing: 0.03em;
 {
     color: #2196F3;
 }
-.nav-link,
-.text
+.hero-button{
+    background-color: #2196F3;
+    color: #ffffff;
+    height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+height: 30px;
+width: 152px;
+left: 724px;
+top: 440px;
+border-radius: nullpx;
+border: 0px;
+}
 {
 color: #212121;
 }
@@ -121,6 +141,7 @@ letter-spacing: 0.03em;
 
 }
 .link-address{
+    border:0px;
     text-decoration: none;
     color: #757575;
     font-family: 'Roboto';
@@ -195,11 +216,13 @@ letter-spacing: 0.03em;
 .portfolio-menu{
     
 }
-.container{
+.conteiner{
     width: 1200px;
     margin-left: auto;
+    margin right: auto;
     margin-top: 0;
-
+    padding-left: 15px;
+    padding-right:15px; 
 }
 .nav-list{
     display: flex;
@@ -212,4 +235,13 @@ letter-spacing: 0.03em;
 }
 .contacs-nav li+li {
     margin-left: 50px;
+} 
+.selection{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contacs-nav{
+    display: flex;
 }
