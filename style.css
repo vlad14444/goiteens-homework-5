@@ -48,7 +48,6 @@ color: #212121;
 }
 .hero{
 background-color: #2F303A;
-
 }
 .hero-titel{
     color: #ffffff;
@@ -134,12 +133,6 @@ letter-spacing: 0.03em;
     margin-left: 0;
     padding-left: 0;
 }
-.link-address:hover
-.link-address:focus
-{
-    color: #2196F3;
-
-}
 .link-address{
     border:0px;
     text-decoration: none;
@@ -214,7 +207,7 @@ letter-spacing: 0.03em;
     padding-left: 0;
 }
 .portfolio-menu{
-    
+  color: red;
 }
 .conteiner{
     width: 1200px;
@@ -233,7 +226,7 @@ letter-spacing: 0.03em;
 .list-item:not last-child{
     margin-right: 0;
 }
-.contacs-nav li+li {
+.contacs-nav li + li {
     margin-left: 50px;
 } 
 .selection{
@@ -242,6 +235,17 @@ letter-spacing: 0.03em;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.contacs-nav{
+.nav-item{
+    border: 1px;
+    margin-right: 54px;
+}
+.item{
+    margin-right: 0;
+
+}
+.header-nav{
     display: flex;
 }
+.link-address{
+    margin-bottom: 20px;
+}  
