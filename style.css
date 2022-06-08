@@ -28,6 +28,28 @@ img{
 {
     color: #2196F3;
 }
+.logo-footer{
+    color: #2196F3;
+    }
+    .span-footer{
+        text-decoration: none;
+        color: #ffffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    }
+        
+.menu-portfolio{
+    display: inline-block;
+    border:1px solid black;
+    border-radius: 4px;
+    width: 73px;
+    height:38px;
+    }
 .hero-button{
     background-color: #2196F3;
     color: #ffffff;
@@ -162,7 +184,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 
 }
-.text-address{
+.text-addresst{
     color: #ffffff;
     font-family: 'Roboto';
 font-style: normal;
@@ -170,7 +192,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
-
 letter-spacing: 0.03em;
 }
 .text-portfolio{
@@ -212,7 +233,7 @@ letter-spacing: 0.03em;
 .conteiner{
     width: 1200px;
     margin-left: auto;
-    margin right: auto;
+    margin-right: auto;;
     margin-top: 0;
     padding-left: 15px;
     padding-right:15px; 
@@ -221,7 +242,7 @@ letter-spacing: 0.03em;
     display: flex;
 }
 .list-item{
-    margin right:54px;
+    margin-right: 54px;
 }
 .list-item:not last-child{
     margin-right: 0;
@@ -239,13 +260,7 @@ letter-spacing: 0.03em;
     border: 1px;
     margin-right: 54px;
 }
-.item{
-    margin-right: 0;
-
-}
 .header-nav{
     display: flex;
 }
-.link-address{
-    margin-bottom: 20px;
-}  
+
