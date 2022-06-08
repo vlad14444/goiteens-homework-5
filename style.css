@@ -4,6 +4,8 @@ secondary-color: color: #ffffff
 secondary-color: color: rgba(255, 255, 255, 0,5)
 accent-color: color: #2196F3 */
 .logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-decoration: none;
     color: black;
 font-family: 'Raleway';
@@ -16,6 +18,8 @@ letter-spacing: 0.03em;
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 img{
     display: block;
@@ -154,6 +158,7 @@ letter-spacing: 0.03em;
 .nav-list{
     margin-left: 0;
     padding-left: 0;
+
 }
 .link-address{
     border:0px;
@@ -240,15 +245,19 @@ letter-spacing: 0.03em;
 }
 .nav-list{
     display: flex;
+    margin: 94px;
 }
 .list-item{
-    margin-right: 54px;
+    margin-left: 94px;
 }
 .list-item:not last-child{
     margin-right: 0;
 }
 .contacs-nav li + li {
     margin-left: 50px;
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: auto;
 } 
 .selection{
     padding-top: 94px;
@@ -262,5 +271,47 @@ letter-spacing: 0.03em;
 }
 .header-nav{
     display: flex;
-}
+    margin-bottom: 0px;
 
+}
+.header-nav{
+    display: flex;
+    align-items: ;
+}
+.hero-button{
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  
+}
+.hero{
+    text-align: center;
+    padding-bottom: 200px; 
+    padding-top: 200px;
+    margin-top: 30px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+flex-item{
+    width: 270px;
+    margin: 30;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .img{
+      display: flex;
+      justify-content: space-between;
+  }
