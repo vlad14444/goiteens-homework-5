@@ -227,13 +227,13 @@ letter-spacing: 0.03em;
 .subtext-portfolio{
     text-decoration: none;
 }
+.hero-footer{
+    background-color: #2F303A;
+}
 .menu-photo{
     text-decoration: none;
     margin-left: 0;
     padding-left: 0;
-}
-.portfolio-menu{
-  color: red;
 }
 .conteiner{
     width: 1200px;
@@ -255,10 +255,15 @@ letter-spacing: 0.03em;
 }
 .contacs-nav li + li {
     margin-left: 50px;
+} 
+.contacs-nav{
+    display: flex;
     align-items: center;
     justify-content:flex-start;
-    margin-left: auto;
-} 
+    padding-top: px;
+    margin-bottom: 55px;
+    margin-left: 200px;
+}
 .selection{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -315,3 +320,56 @@ flex-item{
       display: flex;
       justify-content: space-between;
   }
+  .span-footer{
+      margin-left: 0px;
+  }
+.hero-footer{
+    height: 252px;
+    width: 1600px;
+    left: 0px;
+    top: 2097px;
+    border-radius: 0px;
+}
+.conteiner-footer{
+    margin-left: 215px;
+    padding-top: 60px;
+}
+.nav-list{
+    padding-top: 32px;
+    margin-top: 2px;
+}
+.selection-uor-team{
+
+
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+team-link{
+    width: 270px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+
+    background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+.team-link img{
+    margin-bottom: 30px;
+}
+footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.logo-footer{
+    margin-bottom: 30px;
+}
+footer-address{
+    margin-bottom: 9px;
+}
+.portfolio-menu{
+    d
+}
