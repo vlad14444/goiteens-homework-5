@@ -289,13 +289,11 @@ text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.03em;
   }
-  
-  /*Футер*/
+ /*Футер*/
   .footer,
   .footer-address {
     color: #ffffff;
     background-color: #2f303a;
-  
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -324,14 +322,46 @@ text-transform: uppercase;
   /*Портфоліо*/
   .filter{
  display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.filter li:not(:last-child){
+  margin-right: 8px;
+}
+.filter-link:hover,
+.filter-link:focus{
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .filter-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
     display: inline-block;
-    border: 1px solid black;
-    border-radius: 4px;
-    width: 73px;
+    min-width: 73px;
     height: 38px;
     padding: 6px 22px;
+  }
+  .examples{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-right: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .examples-link{
+    flex-basis: calc((100% - 90px) /3);
+    margin-left: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
   }
   .examples-titel {
     color: var(--title-text-color);
@@ -346,3 +376,4 @@ text-transform: uppercase;
     line-height: 1.8;
     letter-spacing: 0.03em;
   }
+ 
